@@ -1,5 +1,7 @@
 NLP Papers
 
+Transformer XL: long term dependencies
+
 Visualizing and Understanding Neural Models in NLP
 https://www.aclweb.org/anthology/N16-1082.pdf
 
@@ -67,6 +69,29 @@ https://ankeshanand.com/blog/2020/01/26/contrative-self-supervised-learning.html
 
 ------------------------------------
 Blogs:
+
+How to a successful PhD student
+https://people.cs.umass.edu/~wallach/how_to_be_a_successful_phd_student.pdf#page11
+
+Organizing files
+http://www.cs.jhu.edu/~jason/advice/how-to-organize-your-files.html
+
+Writing code for NLP Research
+https://github.com/allenai/writing-code-for-nlp-research-emnlp2018/blob/master/writing_code_for_nlp_research.pdf
+
+Missing Semester (MIT)
+https://www.youtube.com/playlist?list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J
+
+The Transformer
+https://mchromiak.github.io/articles/2017/Sep/12/Transformer-Attention-is-all-you-need/#.XnBcmZNKhTY
+
+RNN – Andrej Karpathy’s blog The Unreasonable Effectiveness of Recurrent Neural Networks 
+
+Seq2Seq - Nathan Lintz Sequence Modeling With Neural Networks (Part 1): Language & Seq2Seq , Part2 Sequence modeling with attention 
+
+LSTM – Christopher Olah’s blog Understanding LSTM Networks  and R2Rt.com Written Memories: Understanding, Deriving and Extending the LSTM .
+
+Attention – Christopher Olah Attention and Augmented Recurrent Neural Networks 
 
 Reformer
 https://ai.googleblog.com/2020/01/reformer-efficient-transformer.html
