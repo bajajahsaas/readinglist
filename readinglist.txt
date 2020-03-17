@@ -1,0 +1,121 @@
+NLP Papers
+
+Visualizing and Understanding Neural Models in NLP
+https://www.aclweb.org/anthology/N16-1082.pdf
+
+Label-Agnostic Sequence Labeling by Copying Nearest Neighbors
+https://arxiv.org/pdf/1906.04225.pdf
+
+GENERATING WIKIPEDIA BY SUMMARIZING LONG SEQUENCES
+https://arxiv.org/pdf/1801.10198.pdf
+
+Bottom-Up Abstractive Summarization
+https://arxiv.org/pdf/1808.10792.pdf
+
+
+Fixed Encoder Self-Attention Patterns in Transformer-Based Machine Translation
+https://arxiv.org/pdf/2002.10260.pdf
+simplify encoder self-attention of Transformer-based NMT models by replacing all but one attention head with fixed positional at- tentive patterns that require neither training nor external knowledge.
+Improve translation quality in low-resource settings thanks to the strong injected prior knowledge about positional attention
+
+Attention Is All You Need
+https://arxiv.org/pdf/1706.03762.pdf
+Discuss transformer architecture and first archi to get rid of CNN and RNN (which are computatinally expensive and cannot be parallelised). BERT is based on Transformers
+
+BERT
+Use transfomers to come up with deep bidirectional model to encode both L2R and R2L contexts. Simplify task-specific architecture by re-using pre-training archi also for finetuning method (all parameters are updated end-to-end but quickly). Works well for feature-based approaches as well. Using MLM and NSP objective (based on utility for downstream tasks).
+
+GPT-2
+
+GPT-1 transformer uses constrained self-attention where every token can only attend to context to its left. This way of using transformer is called "Transformer decoding" since this can be used in text generation (auto-regressive style of decoding).
+
+
+THIEVES ON SESAME STREET! MODEL EXTRACTION OF BERT-BASED APIS
+https://arxiv.org/pdf/1910.12366.pdf
+
+
+-----------------------------------
+Information Retrieval
+
+B. Mitra and N. Craswell, "An Introduction to Neural Information Retrieval" In Foundations and Trends in Information Retrieval (2018)
+
+J. Guo, Y. Fan, L. Pang, L. Yang, Q. Ai, H. Zamani, C. Wu, W. B. Croft, X. Cheng, "A Deep Look into Neural Ranking Models for Information Retrieval" In Information Processing and Management (2019)
+
+
+https://microsoft.github.io/TREC-2019-Deep-Learning/
+
+
+http://www.msmarco.org/
+
+
+------------------------------------
+Machine Learning, Deep Learning
+
+
+YOUR CLASSIFIER IS SECRETLY AN ENERGY BASED MODEL AND YOU SHOULD TREAT IT LIKE ONE 
+https://arxiv.org/pdf/1912.03263.pdf
+
+The Consciousness Prior
+https://arxiv.org/pdf/1709.08568.pdf
+
+A Simple Framework for Contrastive Learning of Visual Representations
+https://arxiv.org/pdf/2002.05709.pdf
+
+Contrastive Self-Supervised Learning
+https://ankeshanand.com/blog/2020/01/26/contrative-self-supervised-learning.html
+
+
+------------------------------------
+Blogs:
+
+Reformer
+https://ai.googleblog.com/2020/01/reformer-efficient-transformer.html
+
+ELECTRA
+https://ai.googleblog.com/2020/03/more-efficient-nlp-model-pre-training.html
+
+Self-suoervised learning
+https://lilianweng.github.io/lil-log/2019/11/10/self-supervised-learning.html
+
+
+Language Models
+https://lilianweng.github.io/lil-log/2019/01/31/generalized-language-models.html
+
+Autoregressive Models
+https://eigenfoo.xyz/deep-autoregressive-models/
+At each step the model is auto-regressive, consuming the previously generated symbols as additional input when generating the next.
+
+Understanding attention:
+http://nlp.seas.harvard.edu/2018/04/03/attention.html
+https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html
+
+Transformers
+https://ai.googleblog.com/2017/08/transformer-novel-neural-network.html
+In each step, it applies a self-attention mechanism which directly models relationships between all words in a sentence, regardless of their respective position. In the earlier example “I arrived at the bank after crossing the river”, to determine that the word “bank” refers to the shore of a river and not a financial institution, the Transformer can learn to immediately attend to the word “river” and make this decision in a single step. 
+
+BERT
+https://ai.googleblog.com/2018/11/open-sourcing-bert-state-of-art-pre.html
+deeply bidirectional vs ELMO (shallow way to plugging two representations together)
+Why does this matter? Pre-trained representations can either be context-free or contextual, and contextual representations can further be unidirectional or bidirectional. Context-free models such as word2vec or GloVe generate a single word embedding representation for each word in the vocabulary. For example, the word “bank” would have the same context-free representation in “bank account” and “bank of the river.” Contextual models instead generate a representation of each word that is based on the other words in the sentence. For example, in the sentence “I accessed the bank account,” a unidirectional contextual model would represent “bank” based on “I accessed the” but not “account.” However, BERT represents “bank” using both its previous and next context — “I accessed the ... account” — starting from the very bottom of a deep neural network, making it deeply bidirectional.
+
+GPT-2
+http://jalammar.github.io/illustrated-gpt2/
+https://openai.com/blog/better-language-models/
+
+-------------------------------------
+
+Topics
+Self Supervised Learning
+SVM, Kernel and kernel Functions
+K-means, PCA, SVD
+Bagging Boosting
+Feature Selection
+Model Selection
+Optimization Algorithms
+HMM
+Transformer
+Active Learning
+Dependency Parsing
+POS tagging
+AdaBoast, AdaGrad, Ensembles: Check ML/NLP whatsapp group
+Random Forests
