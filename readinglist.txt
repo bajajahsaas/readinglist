@@ -17,19 +17,19 @@ https://arxiv.org/pdf/1808.10792.pdf
 
 Fixed Encoder Self-Attention Patterns in Transformer-Based Machine Translation
 https://arxiv.org/pdf/2002.10260.pdf
-simplify encoder self-attention of Transformer-based NMT models by replacing all but one attention head with fixed positional at- tentive patterns that require neither training nor external knowledge.
-Improve translation quality in low-resource settings thanks to the strong injected prior knowledge about positional attention
+    simplify encoder self-attention of Transformer-based NMT models by replacing all but one attention head with fixed positional attentive patterns that require neither training nor external knowledge.
+    Improve translation quality in low-resource settings thanks to the strong injected prior knowledge about positional attention
 
 Attention Is All You Need
 https://arxiv.org/pdf/1706.03762.pdf
-Discuss transformer architecture and first archi to get rid of CNN and RNN (which are computatinally expensive and cannot be parallelised). BERT is based on Transformers
+    Discuss transformer architecture and first archi to get rid of CNN and RNN (which are computatinally expensive and cannot be parallelised). BERT is based on Transformers
 
 BERT
-Use transfomers to come up with deep bidirectional model to encode both L2R and R2L contexts. Simplify task-specific architecture by re-using pre-training archi also for finetuning method (all parameters are updated end-to-end but quickly). Works well for feature-based approaches as well. Using MLM and NSP objective (based on utility for downstream tasks).
+    Use transfomers to come up with deep bidirectional model to encode both L2R and R2L contexts. Simplify task-specific architecture by re-using pre-training archi also for finetuning method (all parameters are updated end-to-end but quickly). Works well for feature-based approaches as well. Using MLM and NSP objective (based on utility for downstream tasks).
 
 GPT-2
 
-GPT-1 transformer uses constrained self-attention where every token can only attend to context to its left. This way of using transformer is called "Transformer decoding" since this can be used in text generation (auto-regressive style of decoding).
+    GPT-1 transformer uses constrained self-attention where every token can only attend to context to its left. This way of using transformer is called "Transformer decoding" since this can be used in text generation (auto-regressive style of decoding).
 
 
 THIEVES ON SESAME STREET! MODEL EXTRACTION OF BERT-BASED APIS
@@ -70,6 +70,18 @@ https://ankeshanand.com/blog/2020/01/26/contrative-self-supervised-learning.html
 ------------------------------------
 Blogs:
 
+NLP Year in Review - 2019
+https://medium.com/dair-ai/nlp-year-in-review-2019-fb8d523bcb19
+
+Attenion is not explaination
+https://medium.com/@yuvalpinter/attention-is-not-not-explanation-dbc25b534017
+
+NLP Paper Summaries
+https://github.com/dair-ai/nlp_paper_summaries
+
+NLP Progress
+http://nlpprogress.com/
+
 How to a successful PhD student
 https://people.cs.umass.edu/~wallach/how_to_be_a_successful_phd_student.pdf#page11
 
@@ -90,12 +102,18 @@ RNN – Andrej Karpathy’s blog The Unreasonable Effectiveness of Recurrent Neu
 Seq2Seq - Nathan Lintz Sequence Modeling With Neural Networks (Part 1): Language & Seq2Seq , Part2 Sequence modeling with attention 
 
 LSTM – Christopher Olah’s blog Understanding LSTM Networks  and R2Rt.com Written Memories: Understanding, Deriving and Extending the LSTM .
+    Use of RNN (Sequential data): when we don’t need any further context – it’s pretty obvious the next word is going to be "sky". In such cases, where the gap between the relevant information and the place that it’s needed is small, RNNs can learn to use the past information. Unfortunately, as that gap grows, RNNs become unable to learn to connect the information.
+    “LSTMs” – are a special kind of RNN, capable of learning long-term dependencies.
 
 Attention – Christopher Olah Attention and Augmented Recurrent Neural Networks 
+    Discusses use of attention for various applications like translation, image captioning and audio transcribing
+
 
 Reformer
 https://ai.googleblog.com/2020/01/reformer-efficient-transformer.html
-
+https://www.pragmatic.ml/reformer-deep-dive/
+ focusing primarily on how the self-attention operation scales with sequence length, and proposing an alternative attention mechanism to incorporate information from much longer contexts into language models.
+ 
 ELECTRA
 https://ai.googleblog.com/2020/03/more-efficient-nlp-model-pre-training.html
 
@@ -108,7 +126,7 @@ https://lilianweng.github.io/lil-log/2019/01/31/generalized-language-models.html
 
 Autoregressive Models
 https://eigenfoo.xyz/deep-autoregressive-models/
-At each step the model is auto-regressive, consuming the previously generated symbols as additional input when generating the next.
+    At each step the model is auto-regressive, consuming the previously generated symbols as additional input when generating the next.
 
 Understanding attention:
 http://nlp.seas.harvard.edu/2018/04/03/attention.html
@@ -116,12 +134,12 @@ https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html
 
 Transformers
 https://ai.googleblog.com/2017/08/transformer-novel-neural-network.html
-In each step, it applies a self-attention mechanism which directly models relationships between all words in a sentence, regardless of their respective position. In the earlier example “I arrived at the bank after crossing the river”, to determine that the word “bank” refers to the shore of a river and not a financial institution, the Transformer can learn to immediately attend to the word “river” and make this decision in a single step. 
+    In each step, it applies a self-attention mechanism which directly models relationships between all words in a sentence, regardless of their respective position. In the earlier example “I arrived at the bank after crossing the river”, to determine that the word “bank” refers to the shore of a river and not a financial institution, the Transformer can learn to immediately attend to the word “river” and make this decision in a single step. 
 
 BERT
 https://ai.googleblog.com/2018/11/open-sourcing-bert-state-of-art-pre.html
-deeply bidirectional vs ELMO (shallow way to plugging two representations together)
-Why does this matter? Pre-trained representations can either be context-free or contextual, and contextual representations can further be unidirectional or bidirectional. Context-free models such as word2vec or GloVe generate a single word embedding representation for each word in the vocabulary. For example, the word “bank” would have the same context-free representation in “bank account” and “bank of the river.” Contextual models instead generate a representation of each word that is based on the other words in the sentence. For example, in the sentence “I accessed the bank account,” a unidirectional contextual model would represent “bank” based on “I accessed the” but not “account.” However, BERT represents “bank” using both its previous and next context — “I accessed the ... account” — starting from the very bottom of a deep neural network, making it deeply bidirectional.
+    deeply bidirectional vs ELMO (shallow way to plugging two representations together)
+    Why does this matter? Pre-trained representations can either be context-free or contextual, and contextual representations can further be unidirectional or bidirectional. Context-free models such as word2vec or GloVe generate a single word embedding representation for each word in the vocabulary. For example, the word “bank” would have the same context-free representation in “bank account” and “bank of the river.” Contextual models instead generate a representation of each word that is based on the other words in the sentence. For example, in the sentence “I accessed the bank account,” a unidirectional contextual model would represent “bank” based on “I accessed the” but not “account.” However, BERT represents “bank” using both its previous and next context — “I accessed the ... account” — starting from the very bottom of a deep neural network, making it deeply bidirectional.
 
 GPT-2
 http://jalammar.github.io/illustrated-gpt2/
