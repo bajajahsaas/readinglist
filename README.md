@@ -5,7 +5,7 @@ A repo to keep track of papers/blogs/resource referred.
 ## NLP Papers
 
 - [ ] [What Does BERT Look At? An Analysis of BERT's Attention](https://arxiv.org/abs/1906.04341)
-- [ ] [Transformer XL: long term dependencies]
+- [ ] [Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context](https://arxiv.org/pdf/1901.02860.pdf)
 - [ ] [Visualizing and Understanding Neural Models in NLP](https://www.aclweb.org/anthology/N16-1082.pdf)
 - [ ] [Label-Agnostic Sequence Labeling by Copying Nearest Neighbors](https://arxiv.org/pdf/1906.04225.pdf)
 - [ ] [GENERATING WIKIPEDIA BY SUMMARIZING LONG SEQUENCES](https://arxiv.org/pdf/1801.10198.pdf)
