@@ -133,18 +133,18 @@ A repo to keep track of papers/blogs/resource referred.
 - [ ] [Missing Semester (MIT)](https://www.youtube.com/playlist?list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J)
 
 ## Topics
-Self Supervised Learning
-SVM, Kernel and kernel Functions
-K-means, PCA, SVD
-Bagging Boosting
-Feature Selection
-Model Selection
-Optimization Algorithms
-HMM
-Transformer
-Active Learning
-Dependency Parsing
-POS tagging
-AdaBoast, AdaGrad, Ensembles: Check ML/NLP whatsapp group
-Random Forests
+Self Supervised Learning <br />
+SVM, Kernel and kernel Functions <br />
+K-means, PCA, SVD <br />
+Bagging Boosting <br />
+Feature Selection <br />
+Model Selection <br />
+Optimization Algorithms <br />
+HMM <br />
+Transformer <br />
+Active Learning <br />
+Dependency Parsing <br />
+POS tagging <br />
+AdaBoast, AdaGrad, Ensembles: Check ML/NLP whatsapp group <br />
+Random Forests <br />
 
