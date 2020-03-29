@@ -12,9 +12,8 @@ A repo to keep track of papers/blogs/resource referred.
 - [ ] [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
 
 ## Summarization
-- [ ] [GENERATING WIKIPEDIA BY SUMMARIZING LONG SEQUENCES](https://arxiv.org/pdf/1801.10198.pdf
-)
-- [ ] [Bottom-Up Abstractive Summarization](https://arxiv.org/pdf/1808.10792.pd)
+- [ ] [GENERATING WIKIPEDIA BY SUMMARIZING LONG SEQUENCES](https://arxiv.org/pdf/1801.10198.pdf)
+- [ ] [Bottom-Up Abstractive Summarization](https://arxiv.org/pdf/1808.10792.pdf)
 
 ## Interpretability
 
