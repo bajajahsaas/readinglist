@@ -25,6 +25,34 @@ A repo to keep track of papers/blogs/resource referred.
 - [ ] [THIEVES ON SESAME STREET! MODEL EXTRACTION OF BERT-BASED APIS](https://arxiv.org/pdf/1910.12366.pdf)
 
 
+## Summarization Papers
+- [ ] [On Extractive and Abstractive Neural Document Summarization with Transformer Language Models](https://arxiv.org/pdf/1909.03186.pdf)
+
+- [ ] [Faithful to the Original - Fact Aware Neural Abstractive Summarization](https://arxiv.org/pdf/1711.04434.pdf)
+Augment the attention mechanism of neural models with factual triples extracted with open information extraction system <br/>
+Ensure the Correctness of the Summary: Incorporate Entailment Knowledge into Abstractive Sentence Summarization
+entailment aware encoder (MTL) and entailment aware decoder (Entailment reward maximisation)
+
+
+- [ ] [Evaluating the Factual Consistency of Abstractive Text Summarization](https://arxiv.org/pdf/1910.12840.pdf)
+
+- [ ] [Assessing The Factual Accuracy of Generated Text](https://arxiv.org/pdf/1905.13322.pdf)
+compared different information extraction systems to evaluate the factual accuracy of generated text <br/>
+
+- [ ] [Optimizing the Factual Correctness of a Summary: A Study of Summarizing Radiology Reports](https://arxiv.org/pdf/1911.02541.pdf)
+
+- [ ] [Retrieve, Rerank and Rewrite - Soft Template Based Neural Summarization](https://www.aclweb.org/anthology/P18-1015.pdf)
+
+- [ ] [Ranking Generated Summaries by Correctness](https://www.aclweb.org/anthology/P19-1213.pdf)
+ An Interesting but Challenging Application for Natural Language Inference <br/>
+Studied whether existing natural language infer- ence systems can be used to evaluate the factual correctness of generated summaries, and found models trained on existing datasets to be inade- quate for this task. <br />
+
+- [ ] [GENERATING WIKIPEDIA BY SUMMARIZING LONG SEQUENCES](https://arxiv.org/pdf/1801.10198.pdf)
+Also, we found this very relevant paper that does something similar to our core idea- extract crucial parts from long documents, and then use abstractive ways to summarize. However, they used simple extractive methods for first stage filtering whereas our ideas can be fancier and incorporate more intuition about 'facts'. Also, they have used older SOTA models for step 2 (abstractive summarization) whereas we have better alternatives available now. They also hint at "..results...suggesting future work in improving the extraction step could result in significant improvements. One possibility is to train a supervised model to predict relevance which we leave as future work". Their major contribution is to modify the transformer architecture to introduce a Transformer decoder which supports really long documents, however, they did this for multi-document summarization scenario. They also mention "for our task optimizing for perplexity correlates with increased ROUGE and human judgment. As perplexity decreases we see improvements in the model outputs, in terms of fluency, factual accuracy, and narrative complexity"  so proceeding with the perplexity idea (for extractor) we discussed last time could be good. 
+
+- [ ] [Bottom-Up Abstractive Summarization](https://arxiv.org/pdf/1808.10792.pdf)
+
+
 ## Information Retrieval
 
 - [ ] [An Introduction to Neural Information Retrieval](https://www.microsoft.com/en-us/research/uploads/prod/2017/06/fntir2018-neuralir-mitra.pdf)
