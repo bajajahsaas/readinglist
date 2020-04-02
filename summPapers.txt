@@ -9,12 +9,10 @@ Ensure the Correctness of the Summary: Incorporate Entailment Knowledge into Abs
 entailment aware encoder (MTL) and entailment aware decoder (Entailment reward maximisation)
 
 
-Evaluating the Factual Consistency of Abstractive Text Summarization
-Weakly supervised fact verification model
+Evaluating the Factual Consistency of Abstractive Text Summarization Weakly supervised fact verification model
 
 
-Assessing The Factual Accuracy of Generated Text
-compared different information extraction systems to evaluate the factual accuracy of generated text.
+Assessing The Factual Accuracy of Generated Text compared different information extraction systems to evaluate the factual accuracy of generated text.
 
 
 Optimizing the Factual Correctness of a Summary: A Study of Summarizing Radiology Reports
