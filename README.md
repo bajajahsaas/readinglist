@@ -9,7 +9,6 @@ A repo to keep track of papers/blogs/resource referred.
 - [ ] [Visualizing and Understanding Neural Models in NLP](https://www.aclweb.org/anthology/N16-1082.pdf)
 - [ ] [Label-Agnostic Sequence Labeling by Copying Nearest Neighbors](https://arxiv.org/pdf/1906.04225.pdf)
 - [ ] [GENERATING WIKIPEDIA BY SUMMARIZING LONG SEQUENCES](https://arxiv.org/pdf/1801.10198.pdf)
-- [ ] [Bottom-Up Abstractive Summarization](https://arxiv.org/pdf/1808.10792.pdf)
 - [ ] [Fixed Encoder Self-Attention Patterns in Transformer-Based Machine Translation](https://arxiv.org/pdf/2002.10260.pdf) <br />
     simplify encoder self-attention of Transformer-based NMT models by replacing all but one attention head with fixed positional attentive patterns that require neither training nor external knowledge.
     Improve translation quality in low-resource settings thanks to the strong injected prior knowledge about positional attention
@@ -105,7 +104,7 @@ Also, we found this very relevant paper that does something similar to our core 
     
 - [ ] [Attention basics](https://mchromiak.github.io/articles/2017/Sep/01/Primer-NN/#attention-basis)
     
-- [ ] [Attenion is not explaination](https://medium.com/@yuvalpinter/attention-is-not-not-explanation-dbc25b534017)
+- [ ] [Attenion is not not explaination](https://medium.com/@yuvalpinter/attention-is-not-not-explanation-dbc25b534017)
 
 - [ ] [Seq2Seq - Nathan Lintz Sequence Modeling With Neural Networks](https://indico.io/blog/sequence-modeling-neuralnets-part1/) <br />
     Using of Seq2Seq: Since the decoder model sees an encoded representation of the input sequence as well as the translation sequence, it can make more intelligent predictions about future words based on the current word. For example, in a standard language model, we might see the word “crane” and not be sure if the next word should be about the bird or heavy machinery. However, if we also pass an encoder context, the decoder might realize that the input sequence was about construction, not flying animals. Given the context, the decoder can choose the appropriate next word and provide more accurate translations. <br />
