@@ -85,6 +85,10 @@ Also, we found this very relevant paper that does something similar to our core 
 
 ## Blogs
 
+- [ ] [A quick summary of modern NLP methods](https://medium.com/dair-ai/deep-learning-for-nlp-an-overview-of-recent-trends-d0d8f40a776d)
+- [ ] [Complete Modern NLP Survey](https://github.com/omarsar/nlp_overview)
+- [ ] [NLP Pretraining](https://d2l.ai/chapter_natural-language-processing-pretraining/index.html)
+- [ ] [NLP Applications](https://d2l.ai/chapter_natural-language-processing-applications/index.html)
 - [ ] [When Not to Choose the Best NLP Model](https://blog.floydhub.com/when-the-best-nlp-model-is-not-the-best-choice/)
 
 - [ ] [Are Sixteen Heads Really Better than One?](https://blog.ml.cmu.edu/2020/03/20/are-sixteen-heads-really-better-than-one/)
