@@ -4,6 +4,7 @@ A repo to keep track of papers/blogs/resource referred.
 
 ## NLP Papers
 
+- [ ] [COMPRESSIVE TRANSFORMERS FOR LONG-RANGE SEQUENCE MODELLING](https://arxiv.org/pdf/1911.05507.pdf)
 - [ ] [What Does BERT Look At? An Analysis of BERT's Attention](https://arxiv.org/abs/1906.04341)
 - [ ] [Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context](https://arxiv.org/pdf/1901.02860.pdf)
 - [ ] [Visualizing and Understanding Neural Models in NLP](https://www.aclweb.org/anthology/N16-1082.pdf)
