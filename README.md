@@ -4,6 +4,7 @@ A repo to keep track of papers/blogs/resource referred.
 
 ## NLP Papers
 
+- [ ] [A Primer in BERTology: What we know about how BERT works](https://arxiv.org/pdf/2002.12327.pdf)
 - [ ] [MASKGAN: BETTER TEXT GENERATION VIA FILLING IN THE ___ ](https://arxiv.org/pdf/1801.07736.pdf)
 - [ ] [COMPRESSIVE TRANSFORMERS FOR LONG-RANGE SEQUENCE MODELLING](https://arxiv.org/pdf/1911.05507.pdf)
 - [ ] [What Does BERT Look At? An Analysis of BERT's Attention](https://arxiv.org/abs/1906.04341)
