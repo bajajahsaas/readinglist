@@ -1,5 +1,4 @@
 # Reading List
-A repo to keep track of papers/blogs/resource referred.
 ---
 
 ## NLP Papers
