@@ -45,6 +45,7 @@
 - [ ] [Language Models as Knowledge Bases?](https://arxiv.org/pdf/1909.01066.pdf)
 
 ## Summarization Papers
+
 - [ ] [On Extractive and Abstractive Neural Document Summarization with Transformer Language Models](https://arxiv.org/pdf/1909.03186.pdf)
 
 - [ ] [Faithful to the Original - Fact Aware Neural Abstractive Summarization](https://arxiv.org/pdf/1711.04434.pdf) <br />
@@ -188,6 +189,7 @@ Also, we found this very relevant paper that does something similar to our core 
 - [ ] [Missing Semester (MIT)](https://www.youtube.com/playlist?list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J)
 
 ## Topics
+
 Self Supervised Learning <br />
 SVM, Kernel and kernel Functions <br />
 K-means, PCA, SVD <br />
