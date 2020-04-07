@@ -3,7 +3,6 @@
 
 ## NLP Papers
 
-- [ ] [A Primer in BERTology: What we know about how BERT works](https://arxiv.org/pdf/2002.12327.pdf)
 - [ ] [MASKGAN: BETTER TEXT GENERATION VIA FILLING IN THE ___ ](https://arxiv.org/pdf/1801.07736.pdf)
 - [ ] [COMPRESSIVE TRANSFORMERS FOR LONG-RANGE SEQUENCE MODELLING](https://arxiv.org/pdf/1911.05507.pdf)
 - [ ] [What Does BERT Look At? An Analysis of BERT's Attention](https://arxiv.org/abs/1906.04341)
@@ -34,6 +33,16 @@
 - [ ] [Expectation Maximization (EM)](https://ttic.uchicago.edu/~dmcallester/ttic101-07/lectures/em/em.pdf)
 - [ ] [Reading Wikipedia to Answer Open-Domain Questions](https://arxiv.org/pdf/1704.00051.pdf)
 - [ ] [Latent Retrieval for Weakly Supervised Open Domain Question Answering](https://www.aclweb.org/anthology/P19-1612.pdf)
+
+
+## Probing Tasks
+
+- [ ] [A Primer in BERTology: What we know about how BERT works](https://arxiv.org/pdf/2002.12327.pdf)
+- [ ] [A Structural Probe for Finding Syntax in Word Representations](https://nlp.stanford.edu/pubs/hewitt2019structural.pdf)
+- [ ] [Do NLP Models Know Numbers? Probing Numeracy in Embeddings](https://arxiv.org/pdf/1909.07940.pdf)
+- [ ] [Knowledge Enhanced Contextual Word Representations](https://arxiv.org/pdf/1909.04164.pdf)
+- [ ] [Designing and Interpreting Probes with Control Tasks](https://www.aclweb.org/anthology/D19-1275.pdf)
+- [ ] [Language Models as Knowledge Bases?](https://arxiv.org/pdf/1909.01066.pdf)
 
 ## Summarization Papers
 - [ ] [On Extractive and Abstractive Neural Document Summarization with Transformer Language Models](https://arxiv.org/pdf/1909.03186.pdf)
