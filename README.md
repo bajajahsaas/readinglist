@@ -27,6 +27,15 @@ A repo to keep track of papers/blogs/resource referred.
 - [ ] [THIEVES ON SESAME STREET! MODEL EXTRACTION OF BERT-BASED APIS](https://arxiv.org/pdf/1910.12366.pdf)
 
 
+## CS 533: Natural Language Processing (NLP)
+
+- [ ] [Course Webpage](http://karlstratos.com/teaching/cs533spring20/cs533spring20.html)
+- [ ] [Variational and Information Theoretic Principles in Neural Networks](http://karlstratos.com/notes/varinfo.pdf)
+- [ ] [Generating Sentences from a Continuous Space](https://arxiv.org/pdf/1511.06349.pdf)
+- [ ] [Expectation Maximization (EM)](https://ttic.uchicago.edu/~dmcallester/ttic101-07/lectures/em/em.pdf)
+- [ ] [Reading Wikipedia to Answer Open-Domain Questions](https://arxiv.org/pdf/1704.00051.pdf)
+- [ ] [Latent Retrieval for Weakly Supervised Open Domain Question Answering](https://www.aclweb.org/anthology/P19-1612.pdf)
+
 ## Summarization Papers
 - [ ] [On Extractive and Abstractive Neural Document Summarization with Transformer Language Models](https://arxiv.org/pdf/1909.03186.pdf)
 
