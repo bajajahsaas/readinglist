@@ -102,8 +102,9 @@ Also, we found this very relevant paper that does something similar to our core 
 
 
 ## Blogs
-- [ ] [XLNet and TransformerXL](https://mlexplained.com/2019/06/30/paper-dissected-xlnet-generalized-autoregressive-pretraining-for-language-understanding-explained/)
+- [ ] [XLNet and TransformerXL](https://mlexplained.com/2019/06/30/paper-dissected-xlnet-generalized-autoregressive-pretraining-for-language-understanding-explained/) </br>
 For a Transformer, this is impossible because Transformers take fixed-length sequences as input have no notion of "memory". All its computations are stateless (this was actually one of the major selling points of the Transformer: no state means computation can be parallelized)  so there is an upper limit on the distance of relationships a vanilla Transformer can model.
+The Transformer XL is a simple extension of the Transformer that seeks to resolve this problem. The idea is simple: what if we added recurrence to the Transformer? Adding recurrence at the word level would just make it an RNN. But what if we added recurrence at a "segment" level. In other words, what if we added state between consecutive sequences of computations? The Transformer XL accomplishes this by caching the hidden states of the previous sequence and passing them as keys/values when processing the current sequence. 
 - [ ] [A quick summary of modern NLP methods](https://medium.com/dair-ai/deep-learning-for-nlp-an-overview-of-recent-trends-d0d8f40a776d)
 - [ ] [Complete Modern NLP Survey](https://github.com/omarsar/nlp_overview)
 - [ ] [NLP Pretraining](https://d2l.ai/chapter_natural-language-processing-pretraining/index.html)
