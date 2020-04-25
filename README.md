@@ -181,6 +181,7 @@ XlLnet model is forced to model bidirectional dependencies with permutation lang
 
 ## Resources
 
+- [ ] [Good links embedded](https://thomwolf.io/)
 - [ ] [NLP Paper Summaries](https://github.com/dair-ai/nlp_paper_summaries)
 
 - [ ] [NLP Progress](http://nlpprogress.com/)
