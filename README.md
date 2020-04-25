@@ -84,7 +84,7 @@ Also, we found this very relevant paper that does something similar to our core 
 - [ ] [MSMARCO](http://www.msmarco.org/)
 
 ### Talks
-
+- [ ] [Future of NLP: HuggingFace](https://www.youtube.com/watch?v=G5lmya6eKtc)
 - [ ] [Neural IR by Bhaskar Mitra](https://www.youtube.com/watch?v=g1Pgo5yTIKg)
 
 - [ ] [Embeddings for Everything: Search in the Neural Network Era](https://www.youtube.com/watch?v=JGHVJXP9NHw)
