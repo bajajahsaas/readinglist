@@ -2,7 +2,7 @@
 ---
 
 ## NLP Papers
-
+- [ ] [Future of NLP](https://docs.google.com/presentation/d/1k3Npb47q5_p2cnY0IvLwwSdS0tHg3ctJLUz1s6vgDLk/edit)
 - [ ] [MASKGAN: BETTER TEXT GENERATION VIA FILLING IN THE ___ ](https://arxiv.org/pdf/1801.07736.pdf)
 - [ ] [COMPRESSIVE TRANSFORMERS FOR LONG-RANGE SEQUENCE MODELLING](https://arxiv.org/pdf/1911.05507.pdf)
 - [ ] [What Does BERT Look At? An Analysis of BERT's Attention](https://arxiv.org/abs/1906.04341)
