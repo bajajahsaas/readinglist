@@ -75,6 +75,7 @@ Also, we found this very relevant paper that does something similar to our core 
 
 ## Information Retrieval
 
+- [ ] [Check work and course](http://ir.aiqingyao.org/home)
 - [ ] [An Introduction to Neural Information Retrieval](https://www.microsoft.com/en-us/research/uploads/prod/2017/06/fntir2018-neuralir-mitra.pdf)
 
 - [ ] [A Deep Look into Neural Ranking Models for Information Retrieval](http://www.bigdatalab.ac.cn/~gjf/papers/2019/Survey_Preprint.pdf)
